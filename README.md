@@ -11,7 +11,7 @@ header('Content-Type: text/xml; charset-utf-8');
 echo $xmlResult;
 
 return xml
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
-  <title>Sanshung</title>
-  <link rel="self" href="http://site.com"/>
-</feed>
+< feed xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0" >
+  < title>Sanshung</title >
+  < link rel="self" href="http://site.com"/ >
+< /feed >
