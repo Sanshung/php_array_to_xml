@@ -32,6 +32,7 @@ class ArrayToXML
         }
         $xml = new XmlWriter();
         $xml->openMemory();
+        $xml->setIndent(1);
         $xml->startDocument($this->version, $this->encoding);
         $xml->startElement($startElement);
         foreach ($attr as $key => $val)
